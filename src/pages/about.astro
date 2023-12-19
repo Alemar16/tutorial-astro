@@ -20,8 +20,8 @@ const skills = [
 ];
 
 const happy = true;
-const finished = false;
-const goal = 3;
+const finished = true;
+const goal = 0;
 
 const skillColor = "navy";
 const fontWeight = "bold";
@@ -74,7 +74,7 @@ const textCase = "uppercase";
   {finished && <p>¡He terminado este tutorial!</p>}
 
   {
-    goal === 3 ? (
+    goal === 0 ? (
       <p>Mi objetivo es terminar en 3 días.</p>
     ) : (
       <p>Mi objetivo no son 3 días.</p>
